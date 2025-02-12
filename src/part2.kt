@@ -8,4 +8,4 @@ fun filterNames(textList: List<String>, callBack: (String) -> Boolean): List<Str
     return textList.filter(callBack);
 }
 
-val startsWithA: (String) -> Boolean = { text -> text.startsWith('a')}
+val startsWithA: (String) -> Boolean = { text -> text.startsWith('A')}
