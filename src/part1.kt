@@ -1,5 +1,7 @@
 
 fun main() {
-    val numbersList = (1..10).toList();
-    println(numbersList.map { it * 2 });
+    println(
+        (1..10).toList().map { it * 2 }
+    )
 }
+
